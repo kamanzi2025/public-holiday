@@ -216,10 +216,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Containerization**: [Docker](https://www.docker.com/)
 - **Container Orchestration**: [Docker Compose](https://docs.docker.com/compose/)
 
-## 📞 Support
-
-For support, please open an issue in the GitHub repository or contact the development team.
-
----
+## this is the link to  the demo video [https://youtu.be/4UbCNcSSTeA]
 
 **Global Public Holiday Finder** - Making holiday planning easier worldwide! 🌍

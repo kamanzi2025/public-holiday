@@ -7,7 +7,9 @@ networks:
 
 services:
   web-01:
-    image: kamanzi22/public:v1
+    build:
+      context: ..
+      dockerfile: servers/web/Dockerfile
     container_name: web-01
     hostname: web-01
     networks:
@@ -18,7 +20,9 @@ services:
       - "8080:80"
 
   web-02:
-    image: kamanzi22/public:v1
+    build:
+      context: ..
+      dockerfile: servers/web/Dockerfile
     container_name: web-02
     hostname: web-02
     networks:
